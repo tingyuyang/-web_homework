@@ -1,0 +1,43 @@
+#banner{
+    background-image:url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+    color:white;
+    font-family: Tahoma;
+    font-weight:bold;
+    height:50pt;
+}
+
+#main{
+    text-align:center;
+    font-family:Tahoma;
+}
+
+fieldset{
+    width:250pt;
+    margin:auto;
+}
+
+#w3c{
+     background-image:url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+     margin-top:20pt;
+     height:40pt;
+
+}
+#w3c img{
+    margin-top:10pt;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    width:700pt;
+    border: 2px solid LightGray;
+}
+  
+ tr:nth-child(even){
+    background-color:LightGray;
+}
+
+h1,p{
+    text-transform:capitalize;
+}
+    
