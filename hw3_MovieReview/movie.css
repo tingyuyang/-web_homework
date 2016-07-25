@@ -1,0 +1,118 @@
+/* https://hw3-claireyang.c9.io*/
+
+body{
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+}
+.banner{
+	height: 50px;
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+}
+.banner img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-family: Tahoma;
+	font-size: 24pt;
+	text-align:center;
+	text-shadow: 3px 3px #999999;
+}
+
+#container{
+	font-family: Verdana;
+	font-size: 8pt;
+	width:800px;
+	margin-right: auto;
+	margin-left: auto;
+	border:4px solid gray;
+	margin-bottom:100px;
+}
+
+#top{
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	font-size: 48pt;
+	color: red;
+	height: 83px;
+}
+
+#review{
+	width:550px;
+	background-color: #E8DC9B;
+
+}
+#column1{
+	float:left;
+	width: 47%;
+	margin-right: 2%
+
+}
+#column2{
+	float: left;
+	width: 47%;
+}
+
+
+
+#column1 > p:nth-child(odd){
+	border: 2px solid gray;
+	
+	padding:8px;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	overflow: hidden;
+}
+#column1 > p:nth-child(even){
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+p img{
+	float: left;
+	margin-right:5px;
+}
+
+#column2 > p:nth-child(odd){
+	border: 2px solid gray;
+	padding: 2px;
+	margin:8px;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	overflow: hidden;
+
+}
+#column2 > p:nth-child(even){
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+
+
+}
+#sidebar{
+	float:right;
+	background-color: #A2B964;
+	width: 250px;
+	/*margin:10pt;*/
+	font-family: Arial;
+
+}
+dl{
+	padding-left: 10px;
+}
+dd{
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+#end{
+	background-color: #A2B964;
+	text-align: center;
+	clear:right;
+	margin:0px;
+}
+
+#source{
+	position: fixed;	
+	bottom: 10px;
+	right: 10px;
+}
