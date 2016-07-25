@@ -1,7 +1,7 @@
 # Homework Assignment 3: Movie Review Part Deux
 
 Specification:
-*http://courses.cs.washington.edu/courses/cse154/13sp/homework/3/spec.pdf
+* http://courses.cs.washington.edu/courses/cse154/13sp/homework/3/spec.pdf
 
 In order to display the page in the Cloud 9:
 >
