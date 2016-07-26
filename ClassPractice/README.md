@@ -1,5 +1,6 @@
 # Class Practice
 Make the user input text bigger
+* Deepened understanding of using JavaScript
 
 ##Before
 >
