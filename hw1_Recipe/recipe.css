@@ -1,0 +1,38 @@
+/* How do i implement the two files together and test it.?
+   Is there different name I could give for the different part of the body?
+   */
+
+h1 {
+	font-family: "Lucida Sans Unicode";
+	font-size : 22pt; 
+	background-color:#F0F0F0; 
+	color:#A4A400;
+	text-align:center;
+}
+
+
+h2{
+    font-size: 18pt;
+    background-color:#F0F0F0; 
+	color:#A4A400;
+	/*left align*/
+	/* this is for all headings*/
+	font-family :"Arial";
+}
+
+
+
+
+/*for section under ingredient and directions*/
+nav，p{
+	font-size: 11pt;
+	color:#404040;
+}
+
+p {
+    font-family:"Georgia";  
+}
+
+nav{
+	font-family: "Georgia";
+}
