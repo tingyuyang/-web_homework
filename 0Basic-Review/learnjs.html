@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+        <script>
+            function hello(who){
+                document.write("HEY, DEAR ",who,"</br>");
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            hello("Bob");
+            var myvariable=5;//or =false
+            var word="this is "
+            var end="sentence.";
+            document.write(word+end+"</br></br>");
+            var length=end.length;
+            var sub=end.substring(2,5);
+            document.write(length,"</br>",sub,"</br></br>"); //","common also works as + 
+            var a = new Array(3);
+            a[0]=1;
+            a[1]=3;
+            a[2]="dog";
+            document.write(a,"</br>");//we can print the whole array
+            var b=["cat","dog",1,2];
+            document.write(b,"</br></br>");
+            
+            //
+            var num=1000;
+            if (num>10){
+                alert(num);
+            }else{
+                alert("Wrong Input");
+            }
+            
+            var i=0
+            for (i=0;i<5;i++){
+                document.write("Iteration:",i,"</br>");
+            }
+        </script>
+    </body>
+</html>
