@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+        <script>
+            function hello(who){
+                document.write("HEY, DEAR ",who,"</br>");
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+//Part 1
+1.
+function isFive() {
+    var i;
+    var sum =0;
+    for(i = 0; i < arguments.length; i++) {
+        sum = sum+ arguments[i];
+    }
+    if (sum != 5){return false;}
+    else{return true}
+}
+
+
+2. 
+var Calculator = function () {
+
+};
+
+Calculator.prototype.add = function() {
+  var sum = 0;
+  for(i = 0; i < arguments.length; i++) {
+      var getter = arguments[i].toString();
+      getter=getter.replace(/\[.*?\]/g,"");
+      var store = parseInt(getter);
+      sum = sum+ store;
+    }
+  return sum;
+
+};
+
+
+3.
+var ScientificCalculator = function () {
+  
+};
+
+ScientificCalculator.prototype.pow = function() {
+  var sum = 1;
+  for(i = 0; i < arguments[0]; i++) {
+    sum = sum * arguments[1];
+    }
+  return sum;
+
+};
+ScientificCalculator.prototype.add = function() {
+  var sum = 0;
+  for(i = 0; i < arguments.length; i++) {
+      var getter = arguments[i].toString();
+      getter=getter.replace(/\[.*?\]/g,"");
+      var store = parseInt(getter);
+      sum = sum+ store;
+    }
+  return sum;
+
+};
